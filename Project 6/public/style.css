@@ -1,0 +1,50 @@
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    margin: 0;
+    padding: 24px;
+}
+
+header {
+    border-bottom: #999 1px solid;
+    font-size: 200%;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+header span {
+    color: #467575;
+}
+
+form {
+    border: #999 1px solid;
+    border-radius: 6px;
+    margin: 24px 0;
+    max-width: 500px;
+    padding: 12px;
+}
+
+form button {
+    background-color: #467575;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    font-size: 100%;
+    padding: 16px;
+    width: 100%;
+}
+
+form input {
+    box-sizing: border-box;
+    border: #467575 1px solid;
+    border-radius: 0;
+    font-size: 100%;
+    margin-bottom: 12px;
+    padding: 15px;
+    width: 100%;
+}
+
+form label {
+    cursor: pointer;
+    display: block;
+    margin-bottom: 6px;
+}

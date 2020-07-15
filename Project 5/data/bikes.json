@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Bianchi Aria",
+        "type": "Road",
+        "weight": 4,
+        "aero": 4
+    },
+    {
+        "id": 2,
+        "name": "Felt IA",
+        "type": "TT",
+        "weight": 1,
+        "aero": 5
+    },
+    {
+        "id": 3,
+        "name": "Ridley Noah",
+        "type": "Road",
+        "weight": 4,
+        "aero": 4
+    },
+    {
+        "id": 4,
+        "name": "Ridley Helium",
+        "type": "Road",
+        "weight": 5,
+        "aero": 2
+    },
+    {
+        "id": 5,
+        "name": "Giant Propel",
+        "type": "Road",
+        "weight": 2,
+        "aero": 4
+    },
+    {
+        "id": 6,
+        "name": "Specialized Shiv",
+        "type": "TT",
+        "weight": 1,
+        "aero": 5
+    },
+    {
+        "id": 7,
+        "name": "Specialized Epic",
+        "type": "Mountain",
+        "weight": 3,
+        "aero": 1
+    },
+    {
+        "id": 8,
+        "name": "Boardman SLR",
+        "type": "Road",
+        "weight": 3,
+        "aero": 2
+    }
+]

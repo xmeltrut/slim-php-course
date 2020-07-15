@@ -1,0 +1,12 @@
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    margin: 0;
+    padding: 24px;
+}
+
+header {
+    border-bottom: #999 1px solid;
+    font-size: 200%;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
