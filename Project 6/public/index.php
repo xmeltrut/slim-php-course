@@ -17,11 +17,23 @@ $container->set('templating', function() {
     ]);
 });
 
+$container->set('session', function() {
+  return new \SlimSession\Helper();
+});
+
 AppFactory::setContainer($container);
 
 $app = AppFactory::create();
 
-$app->get('/', '\App\Controller\AuthController:login');
-$app->get('/secure', '\App\Controller\SecureController:default');
+$app->add(new \Slim\Middleware\Session);
+
+$app->any('/', '\App\Controller\AuthController:login');
+$app->get('/logout', '\App\Controller\AuthController:logout');
+//$app->get('/secure', '\App\Controller\SecureController:default')->add(new \App\Middleware\Authenticate($app->getContainer()->get('session')));
+
+$app->group('/secure', function($app) {
+    $app->get('', '\App\Controller\SecureController:default');
+    $app->get('/status', '\App\Controller\SecureController:status');
+})->add(new \App\Middleware\Authenticate($app->getContainer()->get('session')));
 
 $app->run();

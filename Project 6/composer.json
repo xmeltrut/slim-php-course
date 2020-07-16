@@ -9,6 +9,7 @@
         "slim/psr7": "^1.1",
         "slim/http": "^1.0",
         "mustache/mustache": "^2.13",
-        "php-di/php-di": "^6.2"
+        "php-di/php-di": "^6.2",
+        "bryanjhv/slim-session": "^4.1"
     }
 }
