@@ -1,0 +1,15 @@
+{{> header.html}}
+
+<p><a href="/">Bikes</a> &raquo;</p>
+
+{{#bike}}
+<p class="bike-icon">🚲</p>
+
+<h1>{{name}}</h1>
+
+<p>{{type}} bike</p>
+<p>Weight: {{weight}}/5</p>
+<p>Aero: {{aero}}/5</p>
+{{/bike}}
+
+{{> footer.html}}
