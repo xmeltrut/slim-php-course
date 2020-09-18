@@ -9,7 +9,7 @@ use Slim\App;
 // * 404 error handling
 // * ExceptionController now takes its own $response
 // * Install all of the new packages
-// * Mention changing service access to get('service')
+// * Changing service access to get('service')
 
 require __DIR__ . '/../vendor/autoload.php';
 
